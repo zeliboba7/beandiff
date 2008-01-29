@@ -57,7 +57,7 @@
         <copy file="${name}-${version}.jar" todir="${dist.dir}"/>
         <zip basedir="${src.dir}"  destfile="${dist.dir}/${name}-${version}.src.zip"/>
         <zip basedir="${javadoc.dir}" destfile="${dist.dir}/${name}-${version}-javadoc.zip"/>
-        <zip basedir="${dist.dir}" destfile="${name}-${version}.zip"/>
+        <zip basedir="${dist.dir}" destfile="${name}-${version}.dist.zip"/>
         <echo message="distribution zip file is created.."/>
     </target>
 
