@@ -38,7 +38,7 @@
     <target name="javadoc" depends="compile" description="generates javadoc for the api">
         <mkdir dir="${javadoc.dir}"/>
         <javadoc sourcepath="${src.dir}" destdir="${javadoc.dir}"
-                 classpath="${build.dir}"
+                 classpath="${build.dir}" package="true"
                  windowtitle="Bean Diff - Diff Generator Library"
                  failonerror="true"/>
     </target>
