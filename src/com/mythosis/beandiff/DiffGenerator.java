@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.logging.Logger;
 
 /**
- * @author juramirez@softekpr.com
+ * @author tonior@gmail.com
  */
 public class DiffGenerator {
     private static final Logger logger = Logger.getLogger(DiffGenerator.class.getSimpleName());

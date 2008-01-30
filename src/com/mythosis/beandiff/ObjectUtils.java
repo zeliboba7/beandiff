@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 /**
- * @author juramirez@softekpr.com
+ * @author tonior@gmail.com
  */
 class ObjectUtils {
     private static final Logger logger = Logger.getLogger(ObjectUtils.class.getSimpleName());

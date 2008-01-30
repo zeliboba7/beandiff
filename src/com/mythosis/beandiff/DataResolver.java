@@ -3,7 +3,7 @@ package com.mythosis.beandiff;
 /**
  * Implementing this interface allows an object to resolve data, given a certain input.
  *
- * @author juramirez@softekpr.com
+ * @author @author tonior@gmail.com
  */
 public interface DataResolver<I, O> {
     /**
